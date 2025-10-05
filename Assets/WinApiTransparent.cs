@@ -78,7 +78,7 @@ public class WinApiTransparent : MonoBehaviour
 
         Application.runInBackground = true; // make sure to allow for running in the background (even though it's enabled in the player settings anyway)
 #else
-        MessageBox(IntPtr.Zero, "don't run this in the unity editor", ":3", 0);
+        MessageBox(IntPtr.Zero, "Don't run this in the Unity Editor!", ":3", 0);
 #endif
     }
 }
